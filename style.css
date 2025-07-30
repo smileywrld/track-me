@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: url(https://i.pinimg.com/736x/e0/54/bd/e054bdcf455dbee8fef16b7a8d72b2e4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
