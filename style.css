@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
 .hero {
     position: relative;
     background: url(https://i.pinimg.com/736x/e0/54/bd/e054bdcf455dbee8fef16b7a8d72b2e4.jpg);
@@ -33,8 +37,4 @@
     position: relative;
     z-index: 2;
     text-align: center;
-}
-
-body {
-    font-family: "Lato", sans-serif;
 }
