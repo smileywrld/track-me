@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrakMe - Stay Connected</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md p-4 flex justify-between items-center rounded-lg mx-4 mt-4">
+        <div class="flex items-center">
+            <img src="assets/TRAKME LOGO 1.png" alt="TrakMe Logo" class="mr-2 w-[40px] h-[40px]">
+            <span class="text-blue-600 font-bold">TRAKME</span>
+        </div>
+        <nav class="space-x-4">
+            <a href="#about" class="text-blue-600 hover:text-blue-800 px-3 py-2 rounded-lg">About</a>
+            <a href="#features" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-lg">Features</a>
+            <a href="#resources" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-lg">Resources</a>
+            <a href="#pricing" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-lg">Pricing</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-200 text-center py-20 px-4 rounded-lg mx-4 mb-4 h-screen">
+        <img src="assets/isaac.webp" alt="Character 1" class="absolute top-40 left-10 w-24 rounded-full h-24">
+        <img src="assets/jenny.webp" alt="Character 2" class="absolute top-30 right-20 w-24 h-24 rounded-full">
+        <img src="assets/mark.webp" alt="Character 3" class="absolute bottom-20 left-10 w-24 h-24 rounded-full">
+        <img src="assets/ray.webp" alt="Character 4" class="absolute bottom-20 right-10 w-24 h-24 rounded-full">
+        <h1 class="text-5xl md:text-6xl font-bold mb-4 text-gray-800">Track friends and family</h1>
+        <p class="text-xl md:text-2xl mb-6 text-gray-600">all in one place</p>
+        <p class="text-md mb-8 text-gray-500">Stress Free, No Rush, Stay Happy</p>
+        <div class="space-x-4">
+            <a href="#signup" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Sign In</a>
+            <a href="#demo"
+                class="bg-white text-blue-600 px-6 py-3 rounded-lg border border-blue-600 hover:bg-gray-100">Demo</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-12 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <svg class="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+                <h3 class="text-xl font-semibold mb-2">Live Tracking</h3>
+                <p>Monitor locations in real-time.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <svg class="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <h3 class="text-xl font-semibold mb-2">SOS Alerts</h3>
+                <p>Send emergency signals instantly.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <svg class="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M8 12h.01M12 12h.01M16 12h.01M9 16c-7 0-9-4-9-4s2-4 9-4m9 4c0 0-2 4-9 4m9-4c0 0-2-4-9-4m9 4c0 0-2 4-9 4m-9-4c0 0 2-4 9-4">
+                    </path>
+                </svg>
+                <h3 class="text-xl font-semibold mb-2">Chat</h3>
+                <p>Stay connected with loved ones.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="bg-gray-200 py-12 px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Pricing</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-semibold mb-2">Free</h3>
+                <p class="mb-4">Basic tracking</p>
+                <p class="text-2xl font-bold mb-4">$0/month</p>
+                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Select</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-semibold mb-2">Premium</h3>
+                <p class="mb-4">Live tracking + alerts</p>
+                <p class="text-2xl font-bold mb-4">$9.99/month</p>
+                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Select</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <h3 class="text-xl font-semibold mb-2">Family</h3>
+                <p class="mb-4">Multi-user tracking</p>
+                <p class="text-2xl font-bold mb-4">$19.99/month</p>
+                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Select</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-6 px-4 text-center">
+        <p>&copy; 2025 TrakMe. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="#" class="text-blue-200 hover:text-white mx-2">Privacy</a>
+            <a href="#" class="text-blue-200 hover:text-white mx-2">Terms</a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
