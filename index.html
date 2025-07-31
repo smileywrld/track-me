@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-        <link rel="shortcut icon" href="assets/TRAKME LOGO 1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/TRAKME LOGO 1.png" type="image/x-icon">
 </head>
 
 <body class="bg-gray-100">
@@ -122,6 +122,17 @@
             <a href="#" class="text-blue-200 hover:text-white">Terms</a>
         </div>
     </footer>
+    <script>
+
+        const navToggle = document.querySelector(".nav-toggle");
+        const navMenu = document.querySelector(".nav-menu");
+
+        navToggle.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+            console.log('hello')
+        });
+
+    </script>
 </body>
 
 </html>
